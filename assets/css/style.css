@@ -1113,7 +1113,7 @@ section {
 .kpra_list{
   padding-left: 0;
   list-style: none;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   padding-top: 0px;
 }
 
@@ -1166,4 +1166,10 @@ section {
 .mng_info_box{
   background-color: #f5f9fc;
   box-shadow: 0 2px 7px 0 rgb(12 0 46 / 10%);
+}
+.inner_body h3{
+  color: #5c768d;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
