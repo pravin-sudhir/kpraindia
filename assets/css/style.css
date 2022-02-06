@@ -1110,3 +1110,60 @@ section {
   box-shadow: none;
 }
 }
+.kpra_list{
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+  padding-top: 0px;
+}
+
+.kpra_list li {
+  font-size: 16px;
+  line-height: 28px;
+  color: #aaaaaa;
+  font-weight: 400;
+  position: relative;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.kpra_list li span{
+  font-weight: 600;
+}
+.kpra_list li:before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #428bca;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.section-title p {
+  font-size: 18px;
+  color: #aaaaaa;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+#management_Slider .item .management_box{
+  background: #fff;
+  box-shadow: 0 2px 7px 0 rgb(12 0 46 / 10%);
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  padding: 26px 0;
+  margin-bottom: 30px;
+  transition: all .2s linear;
+  z-index: 1;
+  position: relative;
+}
+#management_Slider .item .management_box a{
+  font-size: 18px;
+  font-weight: 700;
+  color: #1c5c93;
+}
+.mng_info_box{
+  background-color: #f5f9fc;
+  box-shadow: 0 2px 7px 0 rgb(12 0 46 / 10%);
+}
