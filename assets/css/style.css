@@ -1066,6 +1066,12 @@ section {
 
 
 @media (max-width: 991.98px) { 
+  .kpraindia_main_banner .item, .kpraindia_main_banner{
+    height: 60vh;
+  }
+  .kpraindia_main_banner .item p {
+    width: 100%;
+}
   #navbarNavDropdown {
       padding: 30px;
       position: absolute;
