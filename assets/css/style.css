@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .cureboon_navbar .navbar-nav .nav-item .nav-link {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
-  color: #5c768d;
+  color: #343a40;
   padding: 0px;
   transition: color 0.3s ease 0s;
   position: relative;
@@ -218,9 +218,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #5c768d;
   transition: color .2s linear;
   background-color: #fff;
+  transition: .6s all ease-out;
 }
-.cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:hover, .cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:focus, .cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item .active {
+.cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item .active{
   color: #9eccf4;
+}
+.cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:hover, .cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:focus {
+  color: #9eccf4;
+  padding-left: 2px;
 }
 /*--------------------------------------------------------------
 # Sections General
@@ -298,10 +303,10 @@ section {
 }
 .about .section-title p {
   text-align: left;
-  color: #666;
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 30px;
+  text-align: justify;
 }
 .about .about-content {
   padding: 32px;
@@ -388,7 +393,6 @@ section {
   margin: 20px 0;
 }
 .about-lists .content-item p {
-  color: #aaaaaa;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -1125,7 +1129,6 @@ section {
 .kpra_list li {
   font-size: 16px;
   line-height: 28px;
-  color: #aaaaaa;
   font-weight: 400;
   position: relative;
   padding-left: 20px;
@@ -1139,17 +1142,16 @@ section {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #428bca;
+  background: #666;
   position: absolute;
   left: 0;
   top: 10px;
 }
 .section-title p {
   font-size: 18px;
-  color: #aaaaaa;
   line-height: 30px;
-  font-weight: 300;
   margin-bottom: 40px;
+  text-align: justify;
 }
 #management_Slider .item .management_box{
   background: #fff;
@@ -1166,7 +1168,7 @@ section {
 #management_Slider .item .management_box a{
   font-size: 18px;
   font-weight: 700;
-  color: #1c5c93;
+  color: #666;
 }
 .mng_info_box{
   background-color: #f5f9fc;
