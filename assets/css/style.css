@@ -630,7 +630,7 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 .contact .php-email-form .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
