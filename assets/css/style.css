@@ -176,13 +176,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .cureboon_navbar .navbar-nav .nav-item .nav-link {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
-  color: #343a40;
+  color: #00008B;
   padding: 0px;
   transition: color 0.3s ease 0s;
   position: relative;
 }
 .cureboon_navbar .navbar-nav .nav-item .nav-link:hover, .cureboon_navbar .navbar-nav .nav-item .nav-link:focus, .cureboon_navbar .navbar-nav .nav-item .nav-link.active {
-  color: #000;
+  color: #428bca;
 }
 .dropdown_toggle::after{
   content: "\f107";
@@ -222,10 +222,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: .6s all ease-out;
 }
 .cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item .active{
-  color: #000;
+  color: #428bca;
 }
 .cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:hover, .cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:focus {
-  color: #000;
+  color: #428bca;
 }
 /*--------------------------------------------------------------
 # Sections General
