@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   position: relative;
 }
 .cureboon_navbar .navbar-nav .nav-item .nav-link:hover, .cureboon_navbar .navbar-nav .nav-item .nav-link:focus, .cureboon_navbar .navbar-nav .nav-item .nav-link.active {
-  color: #9eccf4;
+  color: #000;
 }
 .dropdown_toggle::after{
   content: "\f107";
@@ -214,24 +214,24 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 .cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item {
   padding: 0 0 11px;
-  font: 400 13px/19px "Poppins",sans-serif;
-  color: #5c768d;
+  font-size: 14px;
+    line-height: 19px;
+  color: #343a40;
   transition: color .2s linear;
   background-color: #fff;
   transition: .6s all ease-out;
 }
 .cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item .active{
-  color: #9eccf4;
+  color: #000;
 }
 .cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:hover, .cureboon_navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:focus {
-  color: #9eccf4;
-  padding-left: 2px;
+  color: #000;
 }
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -244,11 +244,11 @@ section {
   padding-bottom: 25px;
 }
 .section-title h2 {
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-bottom: 0;
-  color: #5c768d;
+  color: #444444;
 }
 .section-title p {
   margin-bottom: 0;
@@ -304,8 +304,8 @@ section {
 .about .section-title p {
   text-align: left;
   margin-bottom: 20px;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 24px;
   text-align: justify;
 }
 .about .about-content {
@@ -368,9 +368,7 @@ section {
 /*--------------------------------------------------------------
 # About Lists
 --------------------------------------------------------------*/
-.about-lists {
-  padding: 40px;
-}
+
 .about-lists .row {
   overflow: hidden;
 }
@@ -388,15 +386,29 @@ section {
   color: #9eccf4;
 }
 .about-lists .content-item h4 {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   padding: 0;
-  margin: 20px 0;
+  margin: 10px 0;
+  color: #444;
+}
+.timeline-content h4{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0;
+  margin: 10px 0;
+  color: #444;
+}
+.timeline-content p{
+  text-align: justify;
+    font-size: 14px;
+    line-height: 24px;
 }
 .about-lists .content-item p {
-  font-size: 15px;
+  font-size: 14px;
   margin: 0;
   padding: 0;
+  line-height: 24px;
 }
 @media (max-width: 768px) {
   .about-lists .content-item {
@@ -910,7 +922,7 @@ section {
 }
 .cliebt_box{
   width: 100%;
-  height: 201px;
+  height: 180px;
   padding: 40px;
   background-color: #fff;
   display: flex;
@@ -921,6 +933,7 @@ section {
   -moz-animation: fadeIn 1s;
   -webkit-animation: fadeIn 1s;
   -o-animation: fadeIn 1s;
+  overflow: hidden;
 }
 .cliebt_box img{
   max-width: 100%;
