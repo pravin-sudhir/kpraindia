@@ -547,7 +547,7 @@ section {
   color: #444;
   text-align: center;
   padding: 20px 0 30px 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   width: 100%;
   background-color: #fff;
 }
@@ -555,18 +555,18 @@ section {
   background-color: #f5f9fc;
 }
 .contact .info-box i {
-  font-size: 30px;
+  font-size: 25px;
   color: #428bca;
   border-radius: 50%;
   border: 2px dotted #9eccf4;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
 }
 .contact .info-box h3 {
-  font-size: 20px;
+  font-size: 18px;
   color: #666;
-  font-weight: 700;
+  font-weight: 600;
   margin: 10px 0;
 }
 .contact .info-box p {
@@ -576,7 +576,7 @@ section {
   margin-bottom: 0;
 }
 .contact .php-email-form {
-  padding: 40px;
+  padding: 30px;
   border: 1px solid #f4eefb;
   transition: all .3s ease-out 0s;
 }
@@ -627,13 +627,13 @@ section {
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 12px;
 }
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
   background-color: #428bca;
 }
 .contact .php-email-form input {
-  padding: 14px;
+  padding: 12px 14px;
 }
 .contact .php-email-form textarea {
   padding: 15px;
