@@ -414,7 +414,7 @@ section {
 }
 @media (max-width: 768px) {
   .about-lists .content-item {
-    padding: 40px 0;
+    padding: 40px 30PX;
   }
 }
 
