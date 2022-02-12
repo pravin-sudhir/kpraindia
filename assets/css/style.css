@@ -3,7 +3,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444;
+  color: #00008B;
 }
 
 a {
@@ -390,14 +390,14 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 10px 0;
-  color: #444;
+  color: #00008B;
 }
 .timeline-content h4{
   font-size: 20px;
   font-weight: 600;
   padding: 0;
   margin: 10px 0;
-  color: #444;
+  color: #00008B;
 }
 .timeline-content p{
   text-align: justify;
@@ -569,7 +569,7 @@ section {
 }
 .contact .info-box h3 {
   font-size: 18px;
-  color: #666;
+  color: #00008B;
   font-weight: 600;
   margin: 10px 0;
 }
