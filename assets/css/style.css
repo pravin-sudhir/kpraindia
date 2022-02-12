@@ -516,7 +516,7 @@ section {
   margin-bottom: 30px;
   position: relative;
   background-color: #fff;
-  padding: 20px;
+  padding: 0px;
   transition: all .3s ease-out 0s;
 }
 .team .member h4 {
