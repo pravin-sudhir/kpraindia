@@ -326,11 +326,11 @@ section {
   transition: 0.5s;
 }
 .about .icon-box .icon i {
-  color: #428bca;
+  color: #00008B;
   font-size: 32px;
 }
 .about .icon-box:hover .icon {
-  background: #428bca;
+  background: #00008B;
 }
 .about .icon-box:hover .icon i {
   color: #fff;
@@ -353,6 +353,7 @@ section {
   margin-left: 95px;
   line-height: 24px;
   font-size: 14px;
+  text-align: justify;
 }
 
 @-webkit-keyframes pulsate-btn {
@@ -409,6 +410,7 @@ section {
   margin: 0;
   padding: 0;
   line-height: 24px;
+  text-align: justify;
 }
 @media (max-width: 768px) {
   .about-lists .content-item {
@@ -884,7 +886,7 @@ section {
 	transition: all .3s ease-out 0s;
 	font-size: 25px;
 	padding: 2px;
-	color: #9eccf4
+	color: #00008B
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -900,7 +902,7 @@ section {
 }
 
 .time-line .single-timeline:hover .box-icon-style {
-	background: #9eccf4;
+	background: #00008B;
 	color: #fff;
 	border-color: transparent
 }
