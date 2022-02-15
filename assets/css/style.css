@@ -8,6 +8,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   z-index: 0;
+  text-align: justify;
 }
 
 a {
