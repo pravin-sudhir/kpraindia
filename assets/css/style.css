@@ -926,6 +926,9 @@ section {
 	.time-line .single-timeline .timeline-img {
 		margin-bottom: 30px
 	}
+  .management_img{
+    padding-left: 0px;
+  }
 }
 
 .time-line .single-timeline .timeline-img img {
@@ -1154,7 +1157,7 @@ section {
 .section-title p {
   font-size: 14px;
   line-height: 24px;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   text-align: justify;
 }
 #management_Slider .item .management_box, #policy_Slider .item .management_box, #information_Slider .item .management_box{
@@ -1183,4 +1186,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 30px;
+}
+.management_img{
+  padding-left: 70px;
 }
