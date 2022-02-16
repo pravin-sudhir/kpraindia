@@ -1157,7 +1157,7 @@ section {
   margin-bottom: 0px;
   text-align: justify;
 }
-#management_Slider .item .management_box, #policy_Slider .item .management_box{
+#management_Slider .item .management_box, #policy_Slider .item .management_box, #information_Slider .item .management_box{
   background: #fff;
   box-shadow: 0 2px 7px 0 rgb(12 0 46 / 10%);
   border-radius: 10px;
@@ -1169,8 +1169,8 @@ section {
   z-index: 1;
   position: relative;
 }
-#management_Slider .item .management_box a, #policy_Slider .item .management_box a{
-  font-size: 18px;
+#management_Slider .item .management_box a, #policy_Slider .item .management_box a, #information_Slider .item .management_box a{
+  font-size: 17px;
   font-weight: 600;
   color: #00008B;
 }
