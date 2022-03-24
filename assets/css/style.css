@@ -391,7 +391,10 @@ section {
   font-weight: 400;
   color: #9eccf4;
 }
-.about-lists .content-item h4 {
+.about-lists .content-item h4{
+  margin-top: 15px;
+}
+.about-lists .content-item h4 a {
   font-size: 20px;
   font-weight: 600;
   padding: 0;
